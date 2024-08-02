@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Maqueta</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1DA1F2;
+    height: 60px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.left-sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    height: calc(100vh - 100px);
+    position: fixed;
+}
+
+.main-content {
+    width: 60%;
+    margin: 0 20%;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #fff;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    height: calc(100vh - 100px);
+    position: fixed;
+    right: 0;
+}
+
+footer {
+    background-color: #333;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <aside class="left-sidebar"></aside>
+        <section class="main-content">
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <aside class="right-sidebar"></aside>
+    </main>
+    <footer></footer>
+</body>
+</html>
